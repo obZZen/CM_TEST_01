@@ -1,0 +1,74 @@
+*{
+   font-family:'Myriad Pro', 'arial';
+   display: block;
+   position: relative;
+}
+
+h1{
+  color: #909090;
+}
+
+.nav-wrapper {
+    overflow: hidden;
+    padding: 40px 0 0px;
+    background: white;
+    z-index: 9;
+}
+ul#main-nav {
+    text-align: center;
+    border-bottom: 2px solid #909090;
+    padding-bottom:10px;
+    margin-bottom: 0;
+    background: white;
+    z-index: 1;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    display: inline-block;
+    margin: 0 25px;
+}
+li a{
+  color: #909090;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: 0.2s ease;
+}
+li a:hover{
+  color: #368cd2;
+}
+li a.active{
+  color: black;
+}
+
+div#line {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background: black;
+    transition: ease 0.5s;
+    z-index: 2;
+}
+div#line.hide{
+    width: 0;
+    opacity: 0;
+}
+
+div#clock {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+iframe{
+  border:none;
+  width: 700px;
+  height: 530px;
+  margin: auto;
+  overflow: hidden!important;
+  max-width: 1440px;
+  top: -70px;
+}
