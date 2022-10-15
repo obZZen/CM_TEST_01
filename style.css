@@ -59,16 +59,11 @@ div#line.hide{
 
 div#clock {
     width: 100%;
-    height: 200px;
     text-align: center;
+    font-size: 3.5vw;
+    margin-top: 20px;
 }
-
-iframe{
-  border:none;
-  width: 700px;
-  height: 530px;
-  margin: auto;
-  overflow: hidden!important;
-  max-width: 1440px;
-  top: -70px;
+div#date {
+    text-align: center;
+    font-size: 2vw;
 }
