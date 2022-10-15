@@ -24,7 +24,7 @@ function makeNav(){
    }
 }
 
-//function to move line, and check active state, active clock
+//function to move line, and check active state
 function lineMove(e){
   let theID = document.getElementById(e.srcElement.id);
   let positionInfo = e.srcElement.getBoundingClientRect();
